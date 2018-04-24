@@ -1,0 +1,78 @@
+[{
+    "id": "1",
+    "title": "办理入住",
+    "icon": "fa-cubes",
+    "spread": true,
+    "children": [{
+        "id": "7",
+        "title": "预定入住",
+        "icon": "&#xe6c6;",
+        "url": "checkin_SearchOrder.jsp"
+    }, {
+        "id": "8",
+        "title": "散客入住",
+        "icon": "&#xe63c;",
+        "url": "checkin_TempOrder.jsp"
+    }]
+}, {
+    "id": "2",
+    "title": "办理离店",
+    "icon": "fa-cogs",
+    "spread": false,
+    "children": [{
+        "id": "12",
+        "title": "直接离店",
+        "icon": "fa-table",
+        "url": "checkout_direct.jsp"
+    }, {
+        "id": "13",
+        "title": "延迟离店",
+        "icon": "&#xe658;",
+        "url": "checkin_SearchOrder.jsp"
+    }]
+}, {
+    "id": "4",
+    "title": "地址本",
+    "icon": "fa-address-book",
+    "url": "",
+    "spread": false,
+    "children": [{
+        "id": "17",
+        "title": "Github",
+        "icon": "fa-github",
+        "url": "https://www.github.com/"
+    }, {
+        "id": "18",
+        "title": "QQ",
+        "icon": "fa-qq",
+        "url": "http://www.qq.com/"
+    }, {
+        "id": "19",
+        "title": "Fly社区",
+        "icon": "&#xe609;",
+        "url": "http://fly.layui.com/"
+    }, {
+        "id": "20",
+        "title": "新浪微博",
+        "icon": "fa-weibo",
+        "url": "http://weibo.com/"
+    }]
+}, {
+    "id": "5",
+    "title": "这是一级导航",
+    "icon": "fa-stop-circle",
+    "url": "https://www.baidu.com",
+    "spread": false
+}, {
+    "id": "6",
+    "title": "其他",
+    "icon": "fa-stop-circle",
+    "url": "#",
+    "spread": false,
+    "children": [{
+        "id": "21",
+        "title": "子窗体中打开选项卡",
+        "icon": "fa-github",
+        "url": "cop.html"
+    }]
+}]
